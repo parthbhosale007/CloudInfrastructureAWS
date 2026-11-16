@@ -8,6 +8,7 @@ Trigger: S3 Object Created events for invoice/*.json
 3. Sends email only if grand total > Rs 10000.
 4. Saves summary for every invoice.
 5. Records alert_sent as True or False.
+6. Add screenshots
 """
 
 import json
